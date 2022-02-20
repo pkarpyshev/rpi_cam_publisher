@@ -9,11 +9,11 @@ services:
     environment:
       - UDEV=1
       - PI_NUMBER=1
-      - PI_CAM_FRAMERATE='30'
-      - PI_CAM_RESOLUTION='640,480'
-      - ROS_MASTER_URI='http://nuke-sk-laptop.local:11311'
-      - ROS_IP='0.0.0.0'
-      - ROS_HOSTNAME='rpi-test'
+      - PI_CAM_FRAMERATE=30
+      - PI_CAM_RESOLUTION=640,480
+      - ROS_MASTER_URI=http://nuke-sk-laptop.local:11311
+      - ROS_IP=0.0.0.0
+      - ROS_HOSTNAME=rpi-test
     devices:
       - "/dev/vchiq:/dev/vchiq"
     
