@@ -75,7 +75,7 @@ class DatasetCollector:
 
 if __name__ == '__main__':
     try:
-        DatasetCollector(1)
+        DatasetCollector()
     except rospy.ROSInterruptException:
         pass
 
